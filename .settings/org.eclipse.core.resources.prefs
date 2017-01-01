@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/gui/MyFrame.java=UTF-8
+encoding//src/lang/BuildLanguageModel.java=UTF-8
+encoding//src/lang/BuildVocabulary.java=UTF-8
+encoding//src/tok/Tokenizer.java=UTF-8
