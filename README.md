@@ -7,9 +7,9 @@ NLP Word Segmentation
 dựa trên từ điển (sử dụng Treebanks VLSP và một phần bộ dữ liệu huấn luyện gồm các văn bản đã được tách từ).
 
 Các bước thực hiện:
-	1.	Sử dụng các regular expressions để nhận diện email, url, phrase, unit, name... 
-		Xử lí với unit, name để phân tách từ rõ ràng hơn 
-		(tuy nhiên chưa xử lí được với trường hợp tên riêng viết hoa hoàn toàn, ví dụ: LAM ĐIỀN)
-	2.	Đối với các phrase thì dựa vào từ điển đã xây dựng ở trên để tách tiến hành tách từ trong từng phrase.
+- Bước 1: Sử dụng các regular expressions để nhận diện email, url, phrase, unit, name... 
+	Xử lí với unit, name để phân tách từ rõ ràng hơn 
+	(tuy nhiên chưa xử lí được với trường hợp tên riêng viết hoa hoàn toàn, ví dụ: LAM ĐIỀN)	
+- Bước 2: Đối với các phrase thì dựa vào từ điển đã xây dựng ở trên để tách tiến hành tách từ trong từng phrase.
 
 NOTE: Các câu trong một tệp thì phải được phân cách, mỗi câu cần được nằm trên một dòng riêng biệt.
